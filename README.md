@@ -69,7 +69,7 @@ There are no adjacent characters that are the same.
 ```
 Enter a message: Hello    class!
 
-Characters 3 and 4 are the same: a
+Characters 3 and 4 are the same: l
 Characters 13 and 14 are the same: s
 ```
 
