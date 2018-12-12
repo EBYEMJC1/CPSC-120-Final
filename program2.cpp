@@ -3,7 +3,19 @@
 
 using namespace std;
 
+/**
+ * Returns the distance between point `a` and point `b`, where both points are
+ * of dimensions specified by `dimensions` and represented as an array of the
+ * size specified by `dimensions`.
+ */
 double distance(int a[], int b[], int dimensions);
+
+/**
+ * Returns a string in the point notation format for point `point` which is a
+ * point of `dimensions` dimensions. For example, if the array `point` is
+ * {10, 20} and `dimensions` is 2, then this function returns the string
+ * "(10,20)".
+ */
 string pointFormat(int point[], int dimensions);
 
 int main() {
