@@ -1,0 +1,8 @@
+# My information
+
+* Name: Sara Sadek
+* Email: EBYEMJC1@CSU.FULLERTON.EDU
+
+# Part 1 Program
+
+IT CHECKS IF THERE ARE TWO ADJACENT LETTERS IN A string NOT INCLUDING SPACES;
