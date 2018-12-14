@@ -15,7 +15,7 @@ string c;
 
   for (int l=0;l<b-1;l++){
     if((a.at(l)!=' ')&& (c.at(l)!=' ')&&(a.at(l)==c.at(l+1))){
-      cout << "Characters "  << l << " and " << l+1 << "are the same "<<a.at(l) << '\n';
+      cout << "Characters "  << l+1 << " and " << l+2 << "are the same "<<a.at(l) << '\n';
     }
   }
 }
