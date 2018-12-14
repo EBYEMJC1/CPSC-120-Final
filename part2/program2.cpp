@@ -2,7 +2,7 @@
 #include <math.h>
 
 using namespace std;
-
+double sq;
 /**
  * Returns the distance between point `a` and point `b`, where both points are
  * of dimensions specified by `dimensions` and represented as an array of the
@@ -17,7 +17,7 @@ double distance(int a[], int b[], int dimensions);
  * "(10,20)".
  */
 string pointFormat(int point[], int dimensions);
-
+  
 int main() {
   int n;
   cout << "Enter number of dimensions: ";
@@ -36,18 +36,34 @@ int main() {
     cin >> b[i];
   }
 
-  double dist = distance(a, b, n);
+  
   cout << "The distance between " << pointFormat(a, n) << " and ";
-  cout << pointFormat(b, n) << " is " << dist << endl;
+  cout << pointFormat(b, n) << " is " ;
+  distance(a, b, n);
+  double now=sq;
+  cout << sq << endl;
 
   return 0;
 }
 
 
 double distance(int a[], int b[], int dimensions) {
-  // TODO(you): Implement this function and remove this comment.
-  return 0.0;
+double sum;
+
+for (int c=0; c<dimensions;c++){
+  double sum=b[c]-a[c];
+cout << "sum"<<sum<<'\n';
 }
+double pw=pow(sum,2);
+double together=together+pw;
+double sq=sqrt(together);
+double distance=sq/dimensions;
+return sq;
+}
+
+  // TODO(you): Implement this function and remove this comment.
+  //return 0.0;
+
 
 
 string pointFormat(int point[], int dimensions) {
