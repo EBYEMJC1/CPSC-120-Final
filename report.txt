@@ -1,0 +1,7 @@
+github_username: EBYEMJC1
+university_username: ebyemjc1
+repository_name: final-0-EBYEMJC1
+score: 60
+feedback:
+failures:
+	- [-40] part2 program2.cpp failed tests.
